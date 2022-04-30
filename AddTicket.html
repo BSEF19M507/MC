@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add Ticket</title>
+</head>
+<body>
+    <form action="AddTicket" method="POST" name="add_ticket">
+	<h1>Add Tickets</h1>
+    Ticket type:<select name="ticketType">
+		<option value="cricket">Cricket match </option>
+		<option value="movie">Movie </option>
+		</select>
+		<br><br>
+	Category:<select name="category">
+		<option value="gold">Gold </option>
+		<option value="premium">Premium </option>
+		</select>
+		<br><br>
+	Price:<input type="text" name="price" placeholder="Set price of ticket" >
+	<br><br>
+	Quantity:<input type="text" name="quantity" placeholder="Set quantity of ticket" >
+	<br><br>
+	
+	<button>Add Tickets</button>
+    </form>
+ </body>
+</html>
